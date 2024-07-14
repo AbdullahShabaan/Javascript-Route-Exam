@@ -2,7 +2,7 @@ import { getMealsMethod, mealAnimateMethod } from "./Home.Module.js";
 import { getIdMethod } from "./Details.Module.js";
 import { getMealsByCat } from "./Category.Module.js";
 import { getMealsByArea } from "./Area.Module.Js";
-import { getMealsByIngredient } from "./ingredient.Module.js";
+import { getMealsByIngredient } from "./Ingredient.Module.js";
 import { validationMethod } from "./Contact.Module.js";
 class Display {
   constructor() {
