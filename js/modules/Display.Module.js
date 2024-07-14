@@ -198,19 +198,27 @@ class Display {
     let content = `
          <div class="container vh-100 position-absolute top-50 start-50 translate-middle">
             <form action="" class="w-75 m-auto text-center position-relative z-0 top-50 translate-middle-y">
-                    <div class="row ">
-                        <div class="col-md-6">
-                            <input id="user-name" type="text" name="name" class="form-control mb-4" placeholder="Enter Your Name">
-                            <input id="user-number" type="text" class="form-control mb-4" placeholder="Enter Your Phone">
-                            <input id="user-password" type="password" class="form-control mb-4" placeholder="Enter Your Password">
-                        </div>
-                        <div class="col-md-6">
-                            <input id="user-email" type="email" class="form-control mb-4" placeholder="Enter Your Email">
-                            <input id="user-age" type="number" class="form-control mb-4" placeholder="Enter Your Age">
-                            <input id="user-repassword" type="password" class="form-control mb-4" placeholder="Repassword">
-                        </div>
-                    </div>
-                  <button class="btn btn-outline-danger" disabled>Submit</button>
+                        <div class="row g-2">
+                                     <div class="col-md-6">
+                                       <input id="user-name" type="text" name="name" class="form-control mb-4" placeholder="Enter Your Name">
+                                     </div>
+                                     <div class="col-md-6">
+                                       <input id="user-number" type="text" class=" form-control mb-4" placeholder="Enter Your Phone">                           
+                                     </div>
+                                     <div class="col-md-6">
+                                       <input id="user-email" type="email" class=" form-control mb-4" placeholder="Enter Your Email">
+                                     </div>
+                                     <div class="col-md-6">
+                                       <input id="user-age" type="number" class="form-control mb-4" placeholder="Enter Your Age">
+                                     </div>
+                                     <div class="col-md-6">
+                                       <input id="user-password" type="password" class="form-control mb-4" placeholder="Enter Your Password">
+                                     </div>
+                                     <div class="col-md-6">
+                                       <input id="user-repassword" type="password" class=" form-control mb-4" placeholder="Repassword">
+                                     </div>     
+                        </div>           
+                  <button class="btn btn-outline-danger m-auto " disabled>Submit</button>
               </form>
             </div>
 

@@ -10,7 +10,6 @@ body {
 /* Start Main */
 #main {
   z-index: 90;
-  /* display: none; */
 }
 #main .meal-card,
 .category-card,
